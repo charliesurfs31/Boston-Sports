@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+    background-color: darkblue;
+
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+    @keyframes animation1 {
+        0% {color: red;}
+        50% {color: white;}
+        100% {color: red;}
+    }
+
